@@ -11,9 +11,20 @@ function App() {
   const fetchFromAPI = async () => {
     const { data } = await Axios.get('https://randomuser.me/api/')
     console.log(data)
+    const react.js 
+    console.log(data)
+    
+    class Timer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { seconds: 10 };
+  }
+    this.interval = setInterval ()
+    }
     const details = data.results[0]
     setDetails(details)
   }
+  
 
   useEffect(() => {
     fetchFromAPI()
