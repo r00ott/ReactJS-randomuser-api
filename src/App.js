@@ -38,6 +38,11 @@ function App() {
         </Col>
       </Row>
     </Container>
+    <div>
+    <row>
+    useEffevt();  
+    </row>
+    </div>
   );
 }
 
